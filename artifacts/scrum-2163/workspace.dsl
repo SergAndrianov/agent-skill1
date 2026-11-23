@@ -11,8 +11,9 @@ workspace "ПлатиДом" "Поиск и привязка начислени�
             db = container "База данных ПлатиДома" "Хранит результаты успешных поисков для подтверждения, привязки и последние успешные снимки." "PostgreSQL" "Database"
         }
 
-        client -> mobile "Вводит реквизиты, просматривает начисления и подтверждает привязку" "UI"
-        mobile -> api "Ищет по реквизитам, подтверждает по ID поиска, запрашивает свои привязки и обновляет начисления" "HTTPS / JSON"
+        client -> mobile "Вводит реквизиты, выбирает сохранённую привязку, просматривает начисления и подтверждает сохранение" "UI"
+        mobile -> api "Ищет по реквизитам, читает свои привязки и запрашивает начисления по сохранённой привязке" "HTTPS / JSON" "AccrualQueries"
+        mobile -> api "Сохраняет или получает существующую привязку по ID успешного поиска" "HTTPS / JSON" "BindingCommand"
         api -> accrualSource "Запрашивает начисления по поставщику и лицевому счету" "API ГИС ЖКХ · контракт уточнить"
         api -> db "Читает и записывает результаты успешных поисков, привязки и снимки начислений" "SQL / JDBC"
     }
@@ -22,7 +23,7 @@ workspace "ПлатиДом" "Поиск и привязка начислени�
             include client mobile api db accrualSource
             title "C4 · Уровень 2 · ПлатиДом — Поиск и привязка начислений по лицевому счету"
             description "Контейнеры и внешние зависимости фичи SCRUM-2163."
-            autoLayout tb
+            autoLayout tb 420 360
         }
 
         styles {
@@ -44,6 +45,14 @@ workspace "ПлатиДом" "Поиск и привязка начислени�
             element "External" {
                 background #526276
                 color #ffffff
+            }
+            relationship "AccrualQueries" {
+                style dashed
+                position 38
+            }
+            relationship "BindingCommand" {
+                style solid
+                position 68
             }
         }
     }

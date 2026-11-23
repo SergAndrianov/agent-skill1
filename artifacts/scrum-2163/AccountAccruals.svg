@@ -13,6 +13,7 @@
       .node-detail { fill: #fff; font-size: 15px; }
       .node-type { fill: #e3edf7; font-size: 13px; }
       .call { fill: none; stroke: #334862; stroke-width: 2.4; marker-end: url(#arrow); }
+      .query { stroke-dasharray: 7 4; }
       .call-text { fill: #263b52; font-size: 15px; font-weight: 600; }
       .call-tech { fill: #40546a; font-size: 13px; }
     </style>
@@ -86,23 +87,32 @@
 
   <g id="relationships">
     <path class="call" d="M212 365H373"/>
-    <text x="281" y="272" text-anchor="middle" class="call-text">
-      <tspan x="281">Вводит реквизиты,</tspan>
+    <text x="281" y="216" text-anchor="middle" class="call-text">
+      <tspan x="281">Вводит реквизиты</tspan>
+      <tspan x="281" dy="18">или выбирает</tspan>
+      <tspan x="281" dy="18">сохранённую</tspan>
+      <tspan x="281" dy="18">привязку,</tspan>
       <tspan x="281" dy="18">смотрит</tspan>
       <tspan x="281" dy="18">начисления,</tspan>
       <tspan x="281" dy="18">подтверждает</tspan>
-      <tspan x="281" dy="18">привязку</tspan>
+      <tspan x="281" dy="18">сохранение</tspan>
     </text>
     <text x="281" y="387" text-anchor="middle" class="call-tech">UI</text>
 
-    <path class="call" d="M548 365H781"/>
+    <path class="call query" d="M548 365H781"/>
     <text x="665" y="288" text-anchor="middle" class="call-text">
       <tspan x="665">Ищет по реквизитам,</tspan>
-      <tspan x="665" dy="18">подтверждает по ID поиска,</tspan>
-      <tspan x="665" dy="18">читает свои привязки</tspan>
-      <tspan x="665" dy="18">и обновляет начисления</tspan>
+      <tspan x="665" dy="18">читает свои привязки,</tspan>
+      <tspan x="665" dy="18">запрашивает начисления</tspan>
+      <tspan x="665" dy="18">по сохранённой привязке</tspan>
     </text>
     <text x="665" y="387" text-anchor="middle" class="call-tech">HTTPS / JSON</text>
+    <path class="call" d="M548 407H781"/>
+    <text x="665" y="429" text-anchor="middle" class="call-text">
+      <tspan x="665">Сохраняет привязку</tspan>
+      <tspan x="665" dy="18">по ID успешного поиска</tspan>
+    </text>
+    <text x="665" y="465" text-anchor="middle" class="call-tech">HTTPS / JSON</text>
 
     <path class="call" d="M1062 365H1279"/>
     <text x="1180" y="305" text-anchor="middle" class="call-text">
@@ -137,5 +147,7 @@
     <text x="787" y="755" class="detail">Граница ПлатиДома</text>
     <path d="M975 750H1003" class="call"/>
     <text x="1017" y="755" class="detail">От инициатора к получателю</text>
+    <path d="M1250 750H1278" class="call query"/>
+    <text x="1290" y="755" class="detail">Запросы к API</text>
   </g>
 </svg>
