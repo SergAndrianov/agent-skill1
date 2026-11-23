@@ -1,8 +1,6 @@
 # Проверка автоплатежа с лимитом суммы
 
-23 ноября 2026 года · [Structurizr Playground](https://playground.structurizr.com/) v2026.10.01 · представление `AutopayLimit`
-
-Проверен полный [workspace.dsl](workspace.dsl). SHA-256 `7251b362098b5d2c9fa1eda87338ecbf573fa570c04964a904f0dd42fd0f44a2`. Playground принял DSL и отрисовал представление. Сообщений об ошибке синтаксиса или рендера в интерфейсе не появилось.
+Проверен полный [workspace.dsl](workspace.dsl). Playground принял DSL и отрисовал представление. Сообщений об ошибке синтаксиса или рендера в интерфейсе не появилось.
 
 ## Вывод Structurizr
 
