@@ -2,7 +2,7 @@
 
 23 ноября 2026 года · [Structurizr Playground](https://playground.structurizr.com/) v2026.10.01 · представление `AccountAccruals`
 
-Проверен полный [workspace.dsl](workspace.dsl). SHA-256 `76267a4919b434e849caf7e42e55d939396ce2f5f3395716b5f9c9bb0bb0599a`. Playground принял DSL и отрисовал представление. Сообщений об ошибке синтаксиса или рендера в интерфейсе не появилось.
+Проверен полный [workspace.dsl](workspace.dsl). Playground принял DSL и отрисовал представление. Сообщений об ошибке синтаксиса или рендера в интерфейсе не появилось.
 
 ## Вывод Structurizr
 
