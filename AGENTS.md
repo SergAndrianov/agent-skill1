@@ -45,11 +45,13 @@ knowledge/
   Допущения.md
 
 skills/
-  c4/
+  C4/
     SKILL.md
 
 artifacts/
   check.md
+  <фича>/
+    check.md
 
 AGENTS.md
 ai-log.md
