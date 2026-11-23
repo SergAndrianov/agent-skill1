@@ -1,7 +1,5 @@
 # Проверка поиска и привязки начислений
 
-23 ноября 2026 года · [Structurizr Playground](https://playground.structurizr.com/) v2026.10.01 · представление `AccountAccruals`
-
 Проверен полный [workspace.dsl](workspace.dsl). Playground принял DSL и отрисовал представление. Сообщений об ошибке синтаксиса или рендера в интерфейсе не появилось.
 
 ## Вывод Structurizr
