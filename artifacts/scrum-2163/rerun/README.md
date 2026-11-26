@@ -1,6 +1,6 @@
 # ПлатиДом — поиск и привязка начислений по лицевому счету
 
-[DSL](workspace.dsl) · [Диаграмма](SearchAndBind.svg) · [Проверка](check.md) · представление `SearchAndBind`.
+[DSL](workspace.dsl) · [Диаграмма](SearchAndBind.svg) · [Проверка](../../scrum-2163-rerun-check.md) · представление `SearchAndBind`.
 
 Авторизованный клиент может узнать начисления по введённому лицевому счёту, явно сохранить привязку и при следующем входе запросить начисления без повторного ввода реквизитов. Поиск описан в SCRUM-2164, сохранение и повторный просмотр — в SCRUM-2165. [SCRUM-2163](https://javacode.atlassian.net/browse/SCRUM-2163), [SCRUM-2164](https://javacode.atlassian.net/browse/SCRUM-2164), [SCRUM-2165](https://javacode.atlassian.net/browse/SCRUM-2165).
 

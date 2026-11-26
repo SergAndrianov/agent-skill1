@@ -1,4 +1,4 @@
 # Поиск и привязка начислений
 
-- [Первый прогон](initial/check.md)
-- [Повторный прогон](rerun/check.md)
+- [Первый прогон](../scrum-2163-initial-check.md)
+- [Повторный прогон](../scrum-2163-rerun-check.md)
