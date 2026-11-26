@@ -2,5 +2,5 @@
 
 | Фича | Первый прогон | Повторный прогон |
 | --- | --- | --- |
-| Поиск и привязка начислений | [DSL и проверка](scrum-2163/initial/check.md) | [DSL и проверка](scrum-2163/rerun/check.md) |
-| Автоплатёж с лимитом суммы | [DSL и проверка](scrum-2166/initial/check.md) | [DSL и проверка](scrum-2166/rerun/check.md) |
+| Поиск и привязка начислений | [DSL и проверка](scrum-2163-initial-check.md) | [DSL и проверка](scrum-2163-rerun-check.md) |
+| Автоплатёж с лимитом суммы | [DSL и проверка](scrum-2166-initial-check.md) | [DSL и проверка](scrum-2166-rerun-check.md) |

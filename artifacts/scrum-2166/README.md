@@ -1,4 +1,4 @@
 # Автоплатёж с лимитом суммы
 
-- [Первый прогон](initial/check.md)
-- [Повторный прогон](rerun/check.md)
+- [Первый прогон](../scrum-2166-initial-check.md)
+- [Повторный прогон](../scrum-2166-rerun-check.md)
