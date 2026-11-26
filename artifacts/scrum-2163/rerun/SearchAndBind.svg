@@ -1,0 +1,150 @@
+<svg width="1701pt" height="552pt"
+ viewBox="0.00 0.00 1701.00 552.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(23.04 528.68)">
+<title>C4</title>
+<polygon fill="#ffffff" stroke="none" points="-23.04,23.04 -23.04,-528.68 1677.8,-528.68 1677.8,23.04 -23.04,23.04"/>
+<text xml:space="preserve" text-anchor="start" x="12" y="-480.64" font-family="Arial" font-weight="bold" font-size="20.00" fill="#183153">ПлатиДом — поиск и привязка начислений по лицевому счету (C4 L2)</text>
+<text xml:space="preserve" text-anchor="start" x="12" y="-453.64" font-family="Arial" font-size="12.00" fill="#495f77">Тёмно&#45;синий — клиент · Синий — контейнер · Серый — внешняя система · Рамка — система · Стрелка — от инициатора к получателю · Синяя стрелка — команда</text>
+<g id="system&#45;boundary" class="cluster">
+<title>cluster_system</title>
+<path fill="#f4f8fc" stroke="#6a829c" stroke-dasharray="5,2" d="M484.83,-122.24C484.83,-122.24 1634.76,-122.24 1634.76,-122.24 1640.76,-122.24 1646.76,-128.24 1646.76,-134.24 1646.76,-134.24 1646.76,-423.24 1646.76,-423.24 1646.76,-429.24 1640.76,-435.24 1634.76,-435.24 1634.76,-435.24 484.83,-435.24 484.83,-435.24 478.83,-435.24 472.83,-429.24 472.83,-423.24 472.83,-423.24 472.83,-134.24 472.83,-134.24 472.83,-128.24 478.83,-122.24 484.83,-122.24"/>
+<text xml:space="preserve" text-anchor="middle" x="630.86" y="-417.74" font-family="Arial" font-size="15.00" fill="#183153">ПлатиДом · граница программной системы</text>
+</g>
+
+<g id="client" class="node">
+<title>client</title>
+<path fill="#183153" stroke="#334862" d="M188.12,-317.48C188.12,-317.48 12,-317.48 12,-317.48 6,-317.48 0,-311.48 0,-305.48 0,-305.48 0,-233 0,-233 0,-227 6,-221 12,-221 12,-221 188.12,-221 188.12,-221 194.12,-221 200.12,-227 200.12,-233 200.12,-233 200.12,-305.48 200.12,-305.48 200.12,-311.48 194.12,-317.48 188.12,-317.48"/>
+<text xml:space="preserve" text-anchor="start" x="75.06" y="-292.74" font-family="Arial" font-weight="bold" font-size="15.00" fill="#ffffff">Клиент</text>
+<text xml:space="preserve" text-anchor="start" x="66.72" y="-282.24" font-family="Arial" font-size="10.00" fill="#dceafa">Пользователь</text>
+<text xml:space="preserve" text-anchor="start" x="12.96" y="-257.34" font-family="Arial" font-size="11.00" fill="#ffffff">Пользователь мобильного банка.</text>
+<text xml:space="preserve" text-anchor="start" x="22.13" y="-246.34" font-family="Arial" font-size="11.00" fill="#ffffff">Ищет начисления и сохраняет</text>
+<text xml:space="preserve" text-anchor="start" x="74.08" y="-235.34" font-family="Arial" font-size="11.00" fill="#ffffff">привязки.</text>
+</g>
+
+<g id="mobile" class="node">
+<title>mobile</title>
+<path fill="#1d5681" stroke="#334862" d="M641.94,-349.52C641.94,-349.52 510.83,-349.52 510.83,-349.52 504.83,-349.52 498.83,-343.52 498.83,-337.52 498.83,-337.52 498.83,-200.96 498.83,-200.96 498.83,-194.96 504.83,-188.96 510.83,-188.96 510.83,-188.96 641.94,-188.96 641.94,-188.96 647.94,-188.96 653.94,-194.96 653.94,-200.96 653.94,-200.96 653.94,-337.52 653.94,-337.52 653.94,-343.52 647.94,-349.52 641.94,-349.52"/>
+<text xml:space="preserve" text-anchor="start" x="538.88" y="-310.74" font-family="Arial" font-weight="bold" font-size="15.00" fill="#ffffff">Мобильное</text>
+<text xml:space="preserve" text-anchor="start" x="511.79" y="-295.74" font-family="Arial" font-weight="bold" font-size="15.00" fill="#ffffff">приложение банка</text>
+<text xml:space="preserve" text-anchor="start" x="534.71" y="-285.24" font-family="Arial" font-size="10.00" fill="#dceafa">Контейнер · iOS /</text>
+<text xml:space="preserve" text-anchor="start" x="559.15" y="-275.24" font-family="Arial" font-size="10.00" fill="#dceafa">Android</text>
+<text xml:space="preserve" text-anchor="start" x="515.26" y="-250.34" font-family="Arial" font-size="11.00" fill="#ffffff">Принимает реквизиты и</text>
+<text xml:space="preserve" text-anchor="start" x="535.13" y="-239.34" font-family="Arial" font-size="11.00" fill="#ffffff">подтверждение.</text>
+<text xml:space="preserve" text-anchor="start" x="518.32" y="-228.34" font-family="Arial" font-size="11.00" fill="#ffffff">Показывает привязки,</text>
+<text xml:space="preserve" text-anchor="start" x="519.84" y="-217.34" font-family="Arial" font-size="11.00" fill="#ffffff">начисления и ошибки.</text>
+</g>
+
+<g id="relationship&#45;0" class="edge">
+<title>client&#45;&gt;mobile</title>
+<path fill="none" stroke="#334862" stroke-width="1.4" d="M200.49,-269.24C285.9,-269.24 407.77,-269.24 489.12,-269.24"/>
+<polygon fill="#334862" stroke="#334862" stroke-width="1.4" points="488.72,-271.87 496.22,-269.24 488.72,-266.62 488.72,-271.87"/>
+<text xml:space="preserve" text-anchor="start" x="257.79" y="-293.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">Вводит реквизиты или выбирает</text>
+<text xml:space="preserve" text-anchor="start" x="307.8" y="-281.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">свою привязку</text>
+<text xml:space="preserve" text-anchor="start" x="295.3" y="-271.24" font-family="Arial" font-size="10.00" fill="#495f77">Интерфейс приложения</text>
+</g>
+
+<g id="relationship&#45;1" class="edge">
+<title>client&#45;&gt;mobile</title>
+<path fill="none" stroke="#1e40af" stroke-width="1.4" d="M200.22,-247.37C225.72,-241.74 246.12,-237.24 246.12,-237.24 246.12,-237.24 452.83,-237.24 452.83,-237.24 452.83,-237.24 468.77,-241.4 489.16,-246.73"/>
+<polygon fill="#1e40af" stroke="#1e40af" stroke-width="1.4" points="488.49,-249.27 496.41,-248.62 489.82,-244.19 488.49,-249.27"/>
+<text xml:space="preserve" text-anchor="start" x="246.12" y="-249.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">Подтверждает сохранение привязки</text>
+<text xml:space="preserve" text-anchor="start" x="295.3" y="-239.24" font-family="Arial" font-size="10.00" fill="#495f77">Интерфейс приложения</text>
+</g>
+
+<g id="accrualSource" class="node">
+<title>accrualSource</title>
+<path fill="#526276" stroke="#334862" d="M1605.7,-96.48C1605.7,-96.48 1447.92,-96.48 1447.92,-96.48 1441.92,-96.48 1435.92,-90.48 1435.92,-84.48 1435.92,-84.48 1435.92,-12 1435.92,-12 1435.92,-6 1441.92,0 1447.92,0 1447.92,0 1605.7,0 1605.7,0 1611.7,0 1617.7,-6 1617.7,-12 1617.7,-12 1617.7,-84.48 1617.7,-84.48 1617.7,-90.48 1611.7,-96.48 1605.7,-96.48"/>
+<text xml:space="preserve" text-anchor="start" x="1499.72" y="-71.74" font-family="Arial" font-weight="bold" font-size="15.00" fill="#ffffff">ГИС ЖКХ</text>
+<text xml:space="preserve" text-anchor="start" x="1486.52" y="-61.24" font-family="Arial" font-size="10.00" fill="#dceafa">Внешняя система</text>
+<text xml:space="preserve" text-anchor="start" x="1462.63" y="-36.34" font-family="Arial" font-size="11.00" fill="#ffffff">Источник начислений по</text>
+<text xml:space="preserve" text-anchor="start" x="1448.88" y="-25.34" font-family="Arial" font-size="11.00" fill="#ffffff">поставщику и лицевому счёту</text>
+<text xml:space="preserve" text-anchor="start" x="1510" y="-14.34" font-family="Arial" font-size="11.00" fill="#ffffff">(A&#45;01).</text>
+</g>
+
+<g id="api" class="node">
+<title>api</title>
+<path fill="#1d5681" stroke="#334862" d="M1125.49,-317.48C1125.49,-317.48 964.65,-317.48 964.65,-317.48 958.65,-317.48 952.65,-311.48 952.65,-305.48 952.65,-305.48 952.65,-233 952.65,-233 952.65,-227 958.65,-221 964.65,-221 964.65,-221 1125.49,-221 1125.49,-221 1131.49,-221 1137.49,-227 1137.49,-233 1137.49,-233 1137.49,-305.48 1137.49,-305.48 1137.49,-311.48 1131.49,-317.48 1125.49,-317.48"/>
+<text xml:space="preserve" text-anchor="start" x="992.97" y="-292.74" font-family="Arial" font-weight="bold" font-size="15.00" fill="#ffffff">API ПлатиДома</text>
+<text xml:space="preserve" text-anchor="start" x="973.65" y="-282.24" font-family="Arial" font-size="10.00" fill="#dceafa">Контейнер · Java / Spring Boot</text>
+<text xml:space="preserve" text-anchor="start" x="974.78" y="-257.34" font-family="Arial" font-size="11.00" fill="#ffffff">Проверяет сессию, права и</text>
+<text xml:space="preserve" text-anchor="start" x="965.61" y="-246.34" font-family="Arial" font-size="11.00" fill="#ffffff">реквизиты. Ищет начисления и</text>
+<text xml:space="preserve" text-anchor="start" x="990.06" y="-235.34" font-family="Arial" font-size="11.00" fill="#ffffff">сохраняет привязки.</text>
+</g>
+
+<g id="relationship&#45;2" class="edge">
+<title>mobile&#45;&gt;api</title>
+<path fill="none" stroke="#334862" stroke-width="1.4" d="M654.3,-215.89C678.93,-198.81 699.94,-184.24 699.94,-184.24 699.94,-184.24 906.65,-184.24 906.65,-184.24 906.65,-184.24 930.02,-198.7 957.48,-215.69"/>
+<polygon fill="#334862" stroke="#334862" stroke-width="1.4" points="955.76,-217.71 963.52,-219.42 958.52,-213.24 955.76,-217.71"/>
+<text xml:space="preserve" text-anchor="start" x="706.61" y="-208.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">Ищет начисления по поставщику и</text>
+<text xml:space="preserve" text-anchor="start" x="758.28" y="-196.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">лицевому счёту</text>
+<text xml:space="preserve" text-anchor="start" x="772.18" y="-186.24" font-family="Arial" font-size="10.00" fill="#495f77">HTTPS/JSON</text>
+</g>
+
+<g id="relationship&#45;3" class="edge">
+<title>mobile&#45;&gt;api</title>
+<path fill="none" stroke="#334862" stroke-width="1.4" d="M654.3,-266.1C678.93,-265.1 699.94,-264.24 699.94,-264.24 699.94,-264.24 906.65,-264.24 906.65,-264.24 906.65,-264.24 922.24,-264.81 942.92,-265.56"/>
+<polygon fill="#334862" stroke="#334862" stroke-width="1.4" points="942.7,-268.18 950.29,-265.83 942.89,-262.93 942.7,-268.18"/>
+<text xml:space="preserve" text-anchor="start" x="699.94" y="-288.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">Читает свои привязки, запрашивает</text>
+<text xml:space="preserve" text-anchor="start" x="725.61" y="-276.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">начисления по ID привязки</text>
+<text xml:space="preserve" text-anchor="start" x="772.18" y="-266.24" font-family="Arial" font-size="10.00" fill="#495f77">HTTPS/JSON</text>
+</g>
+
+<g id="relationship&#45;4" class="edge">
+<title>mobile&#45;&gt;api</title>
+<path fill="none" stroke="#1e40af" stroke-width="1.4" d="M654.3,-291.21C678.93,-298.24 699.94,-304.24 699.94,-304.24 699.94,-304.24 906.65,-304.24 906.65,-304.24 906.65,-304.24 922.38,-300.23 943.2,-294.93"/>
+<polygon fill="#1e40af" stroke="#1e40af" stroke-width="1.4" points="943.73,-297.5 950.35,-293.11 942.44,-292.42 943.73,-297.5"/>
+<text xml:space="preserve" text-anchor="start" x="718.94" y="-328.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">Подтверждает привязку по ID</text>
+<text xml:space="preserve" text-anchor="start" x="751.62" y="-316.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">успешного поиска</text>
+<text xml:space="preserve" text-anchor="start" x="772.18" y="-306.24" font-family="Arial" font-size="10.00" fill="#495f77">HTTPS/JSON</text>
+</g>
+
+<g id="relationship&#45;5" class="edge">
+<title>api&#45;&gt;accrualSource</title>
+<path fill="none" stroke="#334862" stroke-width="1.4" d="M1094.13,-220.62C1133.76,-180.54 1183.49,-130.24 1183.49,-130.24 1183.49,-130.24 1325.02,-96.34 1426.08,-72.13"/>
+<polygon fill="#334862" stroke="#334862" stroke-width="1.4" points="1426.68,-74.69 1433.36,-70.39 1425.45,-69.58 1426.68,-74.69"/>
+<text xml:space="preserve" text-anchor="start" x="1205.16" y="-164.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">Запрашивает начисления по</text>
+<text xml:space="preserve" text-anchor="start" x="1200.16" y="-152.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">поставщику и лицевому счёту</text>
+<text xml:space="preserve" text-anchor="start" x="1200.71" y="-142.24" font-family="Arial" font-size="10.00" fill="#495f77">Протокол требует уточнения (A&#45;01,</text>
+<text xml:space="preserve" text-anchor="start" x="1272.95" y="-132.24" font-family="Arial" font-size="10.00" fill="#495f77">A&#45;14)</text>
+</g>
+
+<g id="db" class="node">
+<title>db</title>
+<path fill="#1d5681" stroke="#334862" d="M1620.76,-331.95C1620.76,-339.64 1578.65,-345.88 1526.81,-345.88 1474.97,-345.88 1432.86,-339.64 1432.86,-331.95 1432.86,-331.95 1432.86,-206.53 1432.86,-206.53 1432.86,-198.84 1474.97,-192.6 1526.81,-192.6 1578.65,-192.6 1620.76,-198.84 1620.76,-206.53 1620.76,-206.53 1620.76,-331.95 1620.76,-331.95"/>
+<path fill="none" stroke="#334862" d="M1620.76,-331.95C1620.76,-324.26 1578.65,-318.01 1526.81,-318.01 1474.97,-318.01 1432.86,-324.26 1432.86,-331.95"/>
+<text xml:space="preserve" text-anchor="start" x="1483.05" y="-300.24" font-family="Arial" font-weight="bold" font-size="15.00" fill="#ffffff">База данных</text>
+<text xml:space="preserve" text-anchor="start" x="1489.3" y="-285.24" font-family="Arial" font-weight="bold" font-size="15.00" fill="#ffffff">ПлатиДома</text>
+<text xml:space="preserve" text-anchor="start" x="1469.01" y="-274.74" font-family="Arial" font-size="10.00" fill="#dceafa">Контейнер · PostgreSQL</text>
+<text xml:space="preserve" text-anchor="start" x="1454.99" y="-249.84" font-family="Arial" font-size="11.00" fill="#ffffff">Хранит привязки клиентов,</text>
+<text xml:space="preserve" text-anchor="start" x="1445.82" y="-238.84" font-family="Arial" font-size="11.00" fill="#ffffff">успешные результаты поиска и</text>
+<text xml:space="preserve" text-anchor="start" x="1477.91" y="-227.84" font-family="Arial" font-size="11.00" fill="#ffffff">время обновления.</text>
+</g>
+
+<g id="relationship&#45;6" class="edge">
+<title>api&#45;&gt;db</title>
+<path fill="none" stroke="#334862" stroke-width="1.4" d="M1124.81,-220.53C1155.51,-201.54 1183.49,-184.24 1183.49,-184.24 1183.49,-184.24 1386.86,-184.24 1386.86,-184.24 1386.86,-184.24 1403.18,-194.22 1424.63,-207.34"/>
+<polygon fill="#334862" stroke="#334862" stroke-width="1.4" points="1423.17,-209.53 1430.93,-211.2 1425.91,-205.05 1423.17,-209.53"/>
+<text xml:space="preserve" text-anchor="start" x="1200.16" y="-208.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">Читает привязки и последние</text>
+<text xml:space="preserve" text-anchor="start" x="1191.82" y="-196.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">успешные результаты владельца</text>
+<text xml:space="preserve" text-anchor="start" x="1260.72" y="-186.24" font-family="Arial" font-size="10.00" fill="#495f77">SQL/JDBC</text>
+</g>
+
+<g id="relationship&#45;7" class="edge">
+<title>api&#45;&gt;db</title>
+<path fill="none" stroke="#1e40af" stroke-width="1.4" d="M1137.73,-265.9C1162.94,-264.99 1183.49,-264.24 1183.49,-264.24 1183.49,-264.24 1386.86,-264.24 1386.86,-264.24 1386.86,-264.24 1402.47,-264.8 1423.22,-265.55"/>
+<polygon fill="#1e40af" stroke="#1e40af" stroke-width="1.4" points="1423.03,-268.17 1430.62,-265.81 1423.22,-262.92 1423.03,-268.17"/>
+<text xml:space="preserve" text-anchor="start" x="1195.16" y="-288.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">Сохраняет успешный результат</text>
+<text xml:space="preserve" text-anchor="start" x="1183.49" y="-276.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">поиска или обновления и его время</text>
+<text xml:space="preserve" text-anchor="start" x="1260.72" y="-266.24" font-family="Arial" font-size="10.00" fill="#495f77">SQL/JDBC</text>
+</g>
+
+<g id="relationship&#45;8" class="edge">
+<title>api&#45;&gt;db</title>
+<path fill="none" stroke="#1e40af" stroke-width="1.4" d="M1137.73,-292.59C1162.94,-299.01 1183.49,-304.24 1183.49,-304.24 1183.49,-304.24 1386.86,-304.24 1386.86,-304.24 1386.86,-304.24 1402.61,-300.27 1423.5,-295.01"/>
+<polygon fill="#1e40af" stroke="#1e40af" stroke-width="1.4" points="1424.06,-297.58 1430.69,-293.2 1422.77,-292.49 1424.06,-297.58"/>
+<text xml:space="preserve" text-anchor="start" x="1186.82" y="-328.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">Создаёт или возвращает привязку</text>
+<text xml:space="preserve" text-anchor="start" x="1205.16" y="-316.44" font-family="Arial" font-weight="bold" font-size="12.00" fill="#263b52">по подтверждённому поиску</text>
+<text xml:space="preserve" text-anchor="start" x="1260.72" y="-306.24" font-family="Arial" font-size="10.00" fill="#495f77">SQL/JDBC</text>
+</g>
+</g>
+</svg>
