@@ -1,6 +1,6 @@
 # ПлатиДом · Поиск и привязка начислений по лицевому счету
 
-[Модель Structurizr DSL](workspace.dsl) · [Диаграмма C4 уровня 2](AccountAccruals.svg) · [Проверка](check.md)
+[Модель Structurizr DSL](workspace.dsl) · [Диаграмма C4 уровня 2](AccountAccruals.svg) · [Проверка](../../scrum-2163-initial-check.md)
 
 ## Источники
 
