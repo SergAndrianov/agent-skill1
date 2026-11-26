@@ -14,7 +14,6 @@
       .node-type { fill: #e3edf7; font-size: 13px; }
       .call { fill: none; stroke: #334862; stroke-width: 2.4; marker-end: url(#arrow); }
       .status-call { stroke-dasharray: 7 4; }
-      .funding-check { stroke-dasharray: 2 5; }
       .call-text { fill: #263b52; font-size: 15px; font-weight: 600; }
       .call-tech { fill: #40546a; font-size: 13px; }
     </style>
@@ -87,7 +86,7 @@
   </g>
 
   <g id="cardProcessing" text-anchor="middle">
-    <rect x="1394" y="425" width="282" height="283" rx="9" fill="#526276"/>
+    <rect x="1394" y="425" width="282" height="213" rx="9" fill="#526276"/>
     <text x="1535" y="486" class="node-title">Процессинг карт</text>
     <text x="1535" y="511" class="node-type">Внешняя программная система</text>
     <text x="1535" y="548" class="node-detail">
@@ -128,26 +127,19 @@
 
     <path class="call" d="M1048 443H1393"/>
     <text x="1243" y="390" text-anchor="middle" class="call-text">
-      <tspan x="1243">Передаёт оплату с ID начисления,</tspan>
-      <tspan x="1243" dy="18">ключом запроса, суммой, валютой</tspan>
+      <tspan x="1243">Передаёт команду оплаты</tspan>
+      <tspan x="1243" dy="18">с ключом запроса, суммой, валютой</tspan>
       <tspan x="1243" dy="18">и ссылкой на источник оплаты</tspan>
     </text>
     <text x="1243" y="465" text-anchor="middle" class="call-tech">API процессинга · контракт записи уточнить</text>
 
     <path class="call status-call" d="M1048 514H1116V605H1393"/>
     <text x="1250" y="549" text-anchor="middle" class="call-text">
-      <tspan x="1250">Читает статус по ключу,</tspan>
-      <tspan x="1250" dy="18">сохранённому до отправки.</tspan>
-      <tspan x="1250" dy="18">После получения ID — также по ID</tspan>
+      <tspan x="1250">Проверяет источник и средства,</tspan>
+      <tspan x="1250" dy="18">запрашивает статус по ключу</tspan>
+      <tspan x="1250" dy="18">запроса или ID операции</tspan>
     </text>
     <text x="1250" y="627" text-anchor="middle" class="call-tech">API процессинга · контракт чтения уточнить</text>
-
-    <path class="call funding-check" d="M1048 529H1101V684H1393"/>
-    <text x="1250" y="651" text-anchor="middle" class="call-text">
-      <tspan x="1250">Проверка источника и средств</tspan>
-      <tspan x="1250" dy="18">Владелец интерфейса предполагается</tspan>
-    </text>
-    <text x="1250" y="705" text-anchor="middle" class="call-tech">Предполагаемый API · контракт уточнить</text>
 
     <path class="call" d="M895.5 536V617"/>
     <text x="880" y="555" text-anchor="end" class="call-text">
@@ -172,8 +164,6 @@
     <path d="M954 781H982" class="call"/>
     <text x="996" y="786" class="detail">От инициатора к получателю</text>
     <path d="M1224 781H1261" class="call status-call"/>
-    <text x="1275" y="786" class="detail">Чтение статуса</text>
-    <path d="M1432 781H1464" class="call funding-check"/>
-    <text x="1478" y="786" class="detail">Предполагаемая связь</text>
+    <text x="1275" y="786" class="detail">Запросы к процессингу</text>
   </g>
 </svg>
